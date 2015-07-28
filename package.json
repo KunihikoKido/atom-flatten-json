@@ -1,7 +1,7 @@
 {
   "name": "flatten-json",
   "main": "./lib/flatten-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "flatten (unflatten) json",
   "keywords": [
     "json",
