@@ -1,21 +1,25 @@
 {
-	"name": "flatten-json",
-	"main": "./lib/flatten-json",
-	"version": "0.0.0",
-	"description": "flatten (unflatten) json",
-	"keywords": ["json", "flat","format"],
-	"activationCommands": {
-		"atom-workspace": [
-			"flatten-json:flatten",
-			"flatten-json:unflatten"
-		]
-	},
-	"repository": "https://github.com/KunihikoKido/atom-flatten-json",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {
-		"flat": "*"
-	}
+  "name": "flatten-json",
+  "main": "./lib/flatten-json",
+  "version": "0.1.0",
+  "description": "flatten (unflatten) json",
+  "keywords": [
+    "json",
+    "flat",
+    "format"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "flatten-json:flatten",
+      "flatten-json:unflatten"
+    ]
+  },
+  "repository": "https://github.com/KunihikoKido/atom-flatten-json",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "flat": "*"
+  }
 }
