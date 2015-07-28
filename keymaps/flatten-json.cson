@@ -7,6 +7,6 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
-'atom-text-editor':
+'atom-workspace':
   'ctrl-alt-[': 'flatten-json:flatten'
   'ctrl-alt-]': 'flatten-json:unflatten'
