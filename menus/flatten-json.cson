@@ -1,20 +1,17 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
-'context-menu':
-  'atom-text-editor': [
-    {
-      'label': 'Toggle flatten-json'
-      'command': 'flatten-json:toggle'
-    }
-  ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'flatten-json'
+      'label': 'Flatten JSON'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'flatten-json:toggle'
+          'label': 'Flatten'
+          'command': 'flatten-json:flatten'
+        }
+        {
+          'label': 'Unflatten'
+          'command': 'flatten-json:unflatten'
         }
       ]
     ]
